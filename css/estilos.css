@@ -96,3 +96,7 @@ main {
 .aviso {
   font-weight: bold;
 }
+
+.tabla tfoot {
+  font-weight: bold;
+}
