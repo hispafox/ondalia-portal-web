@@ -92,3 +92,7 @@ main {
   color: #5b6b77;
   text-align: center;
 }
+
+.aviso {
+  font-weight: bold;
+}
