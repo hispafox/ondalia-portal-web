@@ -17,3 +17,4 @@ Las tiendas piden aquí su reposición sin llamar al almacén. Son tres páginas
 | `catalogo.html` | El catálogo, con el precio por caja y las existencias |
 | `pedido.html` | Un pedido de ejemplo, con su total y el aviso que ve la tienda al confirmar |
 | `css/estilos.css` | Los estilos de las tres páginas |
+| `ofertas.html` | Las ofertas de la semana |
