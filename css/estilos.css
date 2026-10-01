@@ -1,0 +1,94 @@
+/* Estilos del portal de pedidos de Ondalia */
+
+:root {
+  --color-marca: #1f5f8b;
+  --color-texto: #1d2a33;
+  --color-fondo: #f5f7f9;
+  --color-borde: #d6dde3;
+  --color-aviso: #fff6dd;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--color-texto);
+  background: var(--color-fondo);
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: var(--color-marca);
+  color: white;
+}
+
+.marca {
+  margin: 0;
+  font-weight: bold;
+}
+
+.cabecera nav a {
+  margin-left: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.cabecera nav a.activo {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 820px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.aviso {
+  padding: 8px 16px;
+  background: var(--color-aviso);
+  border-left: 4px solid #e0a800;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.tabla th,
+.tabla td {
+  padding: 8px;
+  border-bottom: 1px solid var(--color-borde);
+  text-align: left;
+}
+
+.tabla .numero {
+  text-align: right;
+}
+
+.boton {
+  margin-top: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background: var(--color-marca);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.confirmacion {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background: #e3f4e8;
+  border-left: 4px solid #2e8b57;
+}
+
+.pie {
+  padding: 12px 24px;
+  font-size: 0.9rem;
+  color: #5b6b77;
+  text-align: center;
+}

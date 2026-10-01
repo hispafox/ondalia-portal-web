@@ -1,0 +1,8 @@
+# Configuración local de Visual Studio
+.vs/
+
+# Registros
+*.log
+
+# Valores locales que no se suben
+.env
