@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pedido · Distribuciones Ondalia</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <p class="marca">Distribuciones Ondalia</p>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="pedido.html" class="activo">Pedido</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Tu pedido</h1>
+    <p>Revisa las líneas y el total antes de confirmar. Al confirmar, la tienda ve el aviso de abajo.</p>
+
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th class="numero">Cajas</th>
+          <th class="numero">Precio por caja</th>
+          <th class="numero">Importe</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Agua mineral 1,5 L · caja de 6</td>
+          <td class="numero">12</td>
+          <td class="numero">4,8972 €</td>
+          <td class="numero">58,77 €</td>
+        </tr>
+        <tr>
+          <td>Sal fina 1 kg · caja de 4</td>
+          <td class="numero">4</td>
+          <td class="numero">2,3987 €</td>
+          <td class="numero">9,59 €</td>
+        </tr>
+        <tr>
+          <td>Arroz redondo 1 kg · caja de 6</td>
+          <td class="numero">10</td>
+          <td class="numero">7,9986 €</td>
+          <td class="numero">79,99 €</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="3">Total</th>
+          <td class="numero">148,35 €</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <button class="boton">Confimar pedido</button>
+
+    <section class="confirmacion">
+      <h2>Pedido recibido.</h2>
+      <p>Te enviaremos un correo de confirmación a la dirección de la tienda en 24 horas.</p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Distribuciones Ondalia · Atención a tiendas: 900 000 000</p>
+  </footer>
+</body>
+</html>
