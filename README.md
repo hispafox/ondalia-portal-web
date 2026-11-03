@@ -7,6 +7,7 @@ Las tiendas piden aquí su reposición sin llamar al almacén. Son tres páginas
 - **En el navegador:** doble clic en `index.html`.
 - **En Visual Studio 2026:** **Archivo** → **Abrir** → **Carpeta** y elige la carpeta del repositorio.
 - **En Visual Studio Code:** **File** → **Open Folder** y elige la carpeta del repositorio.
+- **Sin conexión:** las tres páginas funcionan igual, porque no descargan nada.
 
 ## Qué hay en cada fichero
 
