@@ -93,7 +93,7 @@ main {
   text-align: center;
 }
 
-/* Interruptor de los precios especiales para tiendas con contrato: apagado */
+/* Interruptor de los precios especiales para tiendas con contrato: encendido */
 .precios-especiales {
-  display: none;
+  display: block;
 }
