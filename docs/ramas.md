@@ -24,5 +24,6 @@ Cuando pase a Git, Release Flow: una rama de versión por cada versión que se i
 - Cada publicación se marca con una etiqueta anotada: v<mayor>.<menor>.<parche>.
 
 ## Pull requests
+- La descripción dice qué cambia y por qué, qué mirar con más cuidado, cómo se comprueba y qué no hace.
 - Tipo de merge al completar: pendiente (módulo 5).
 - La rama se borra al completar.
