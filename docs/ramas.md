@@ -25,5 +25,5 @@ Cuando pase a Git, Release Flow: una rama de versión por cada versión que se i
 
 ## Pull requests
 - La descripción dice qué cambia y por qué, qué mirar con más cuidado, cómo se comprueba y qué no hace.
-- Tipo de merge al completar: pendiente (módulo 5).
+- Tipo de merge al completar: squash.
 - La rama se borra al completar.
