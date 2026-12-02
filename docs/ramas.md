@@ -30,3 +30,4 @@ Cuando pase a Git, Release Flow: una rama de versión por cada versión que se i
 
 ## Políticas de `main`
 - Lo que aquí se acuerda, las políticas lo hacen cumplir: un revisor como mínimo, que no sea el autor; tarea enlazada; comentarios resueltos, y solo squash.
+- Pueden saltarse las políticas al completar, solo en emergencias: Diego e Irene. Cada vez que se use, se cuenta en el canal del equipo.
